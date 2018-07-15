@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghome"
+    tools:context="com.example.asus.hujayapps.IqroEnamActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/iqro_enam"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:layout_marginTop="42dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hujay_apps6"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView4" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:onClick="moveenamteori"
+        android:background="@drawable/teorienam"
+        android:layout_above="@+id/imageButton18"
+        android:layout_toLeftOf="@+id/imageButton19"
+        android:layout_toStartOf="@+id/imageButton19"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/imageButton20" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:onClick="moveenamnulis"
+        android:background="@drawable/nulisenam"
+        android:layout_above="@+id/imageButton17"
+        android:layout_alignLeft="@+id/imageButton17"
+        android:layout_alignStart="@+id/imageButton17"
+        android:id="@+id/imageButton19" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:onClick="moveenamgame"
+        android:background="@drawable/gameenam"
+        android:id="@+id/imageButton18"
+        android:layout_below="@+id/imageButton19"
+        android:layout_alignLeft="@+id/imageButton20"
+        android:layout_alignStart="@+id/imageButton20" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:onClick="moveenamqa"
+        android:background="@drawable/qaenam"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="75dp"
+        android:id="@+id/imageButton17"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+</RelativeLayout>

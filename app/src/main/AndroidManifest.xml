@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.hujayapps"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="27" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcherhujay"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcherhujay"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".IqroSatuActivity" />
+        <activity android:name=".IqroDuaActivity" />
+        <activity android:name=".IqroTigaActivity" />
+        <activity android:name=".IqroEmpatActivity" />
+        <activity android:name=".IqroEnamActivity" />
+        <activity android:name=".IqroLimaActivity" />
+        <activity android:name=".TeoriSatuActivity" />
+        <activity android:name=".NulisDuaActivity" />
+        <activity android:name=".NulisSatuActivity" />
+        <activity android:name=".GameSatuActivity" />
+        <activity android:name=".QaSatuActivity" />
+        <activity android:name=".TeoriDuaActivity" />
+        <activity android:name=".GameDuaActivity" />
+        <activity android:name=".QaDuaActivity" />
+        <activity android:name=".TeoriTigaActivity" />
+        <activity android:name=".NulisTigaActivity" />
+        <activity android:name=".GameTigaActivity" />
+        <activity android:name=".QaTigaActivity" />
+        <activity android:name=".TeoriEmpatActivity" />
+        <activity android:name=".NulisEmpatActivity" />
+        <activity android:name=".GameEmpatActivity" />
+        <activity android:name=".QaEmpatActivity" />
+        <activity android:name=".TeoriLimaActivity" />
+        <activity android:name=".NulisLimaActivity" />
+        <activity android:name=".GameLimaActivity" />
+        <activity android:name=".QaLimaActivity" />
+        <activity android:name=".TeoriEnamActivity" />
+        <activity android:name=".NulisEnamActivity" />
+        <activity android:name=".GameEnamActivity" />
+        <activity android:name=".QaEnamActivity" />
+        <activity android:name=".EsaySatuActivity" />
+        <activity android:name=".PilganSatuActivity" />
+        <activity android:name=".HasilSkoringActivity" />
+    </application>
+
+</manifest>

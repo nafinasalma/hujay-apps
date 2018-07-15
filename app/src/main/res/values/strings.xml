@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Hujay Apps</string>
+    <string name="hujay_apps">Hujay Apps</string>
+    <string name="aplikasi_belajar_huruf_hijaiyah">Aplikasi Belajar Huruf Hijaiyah</string>
+    <string name="iqro_pertama">Iqro Pertama</string>
+    <string name="iqro_kedua">Iqro Kedua</string>
+    <string name="iqro_tiga">Iqro Tiga</string>
+    <string name="hujay_apps3">Hujay Apps</string>
+    <string name="iqro_empat">Iqro Empat</string>
+    <string name="hujay_apps4">Hujay Apps</string>
+    <string name="hujay_apps5">Hujay Apps</string>
+    <string name="iqro_lima">Iqro Lima</string>
+    <string name="iqro_enam">Iqro Enam</string>
+    <string name="hujay_apps6">Hujay Apps</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sound">Sound</string>
+    <string name="soundalif">soundalif</string>
+    <string name="main">Main</string>
+    <string name="bantuan">Anda hanya perlu memindahkan gambar secara berurutan untuk menjadikannya
+    gambar yang sempurna. Untuk menggesernya, anda tinggal klik gambar yang ingin di pindahkan </string>
+    <string name="bergerak">Bergerak :</string>
+    <string name="kembali">Kembali</string>
+    <string name="text_feedback">Feedback</string>
+    <string name="_0">0</string>
+    <string name="_8">8</string>
+    <string name="_7">7</string>
+    <string name="_6">6</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="_00">0</string>
+    <string name="hapus">Hapus</string>
+    <string name="p1_0">P1: 0</string>
+    <string name="p2_0">P2: 0</string>
+    <string name="skor">SKOR :</string>
+    <string name="lanjut">Lanjut</string>
+    <string name="skor0">0</string>
+    <string name="masukkan_jawaban_disini">Masukkan Jawaban disini</string>
+    <string name="esay0">0</string>
+    <string name="skore">SKOR :</string>
+    <string name="submit1">SUBMIT</string>
+    <string name="skor_100">SKOR : 100</string>
+    <string name="home">HOME</string>
+    <string name="teoriwau">Makhroj yang dikeluarkan huruf Alif yaitu di tenggorokan yang paling bawah.
+    </string>
+    <string name="teorilamalif">Wauwauwauwauwauwauwauwauwauwauwawu
+    </string>
+    <string name="teorihamzah">Wauwauwauwauwauwauwauwauwauwauwawu
+    </string>
+    <string name="teoriya">Wauwauwauwauwauwauwauwauwauwauwawu
+    </string>
+</resources>
