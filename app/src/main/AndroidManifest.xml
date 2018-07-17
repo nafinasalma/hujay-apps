@@ -69,6 +69,7 @@
         <activity android:name=".EsaySatuActivity" />
         <activity android:name=".PilganSatuActivity" />
         <activity android:name=".HasilSkoringActivity" />
+        <activity android:name=".SamplePembelajaranActivity"></activity>
     </application>
 
 </manifest>
