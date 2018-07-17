@@ -14,7 +14,7 @@ public class IqroTigaActivity extends AppCompatActivity {
     }
 
     public void movetigateori(View view) {
-        Intent i = new Intent(IqroTigaActivity.this, TeoriTigaActivity.class);
+        Intent i = new Intent(IqroTigaActivity.this, SamplePembelajaranActivity.class);
         startActivity(i);
     }
 
