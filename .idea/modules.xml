@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HujayApps.iml" filepath="$PROJECT_DIR$/HujayApps.iml" />
+      <module fileurl="file://C:\Users\super\StudioProjects\hujay-apps\HujayApps.iml" filepath="C:\Users\super\StudioProjects\hujay-apps\HujayApps.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hujay-apps.iml" filepath="$PROJECT_DIR$/hujay-apps.iml" />
     </modules>
   </component>
 </project>
