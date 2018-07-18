@@ -9,6 +9,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 
 /**
@@ -18,6 +19,7 @@ public class CanvasFragment extends Fragment {
 
     private CanvasView canvasView;
     private ImageView imageView;
+    private Button button;
     private String title;
 
     private static final String ARG_PARAM1 = "param1";
@@ -65,9 +67,17 @@ public class CanvasFragment extends Fragment {
 
         canvasView = v.findViewById(R.id.canvas);
         imageView = v.findViewById(R.id.ivHuruf);
+        button = v.findViewById(R.id.button);
+
         imageView.setImageResource(v.getContext().getResources().getIdentifier(title+"nulis",
                 "drawable", getActivity().getPackageName()));
 
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                canvasView.clearCanvas();
+            }
+        });
         return v;
     }
 
