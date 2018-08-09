@@ -4,28 +4,28 @@ public class SoalPilihanGandaSatu {
     //membuat array untuk pertanyaan
     public String pertanyaansatu[] = {
             "Huruf apa yang penulisannya tegak lurus? ",
-            "Huruf yang ketika dibaca mempunya qolqolah yaitu.. ",
-            "Huruf yang dapat disambung tapi tidak bisa menyambung adalah huruf.. ",
-            "Urutan huruf hijaiyah di bawah ini yang benar adalah..",
-            "Huruf apa yang penulisannya dari atas garis lalu melewati garis bawah? ",
+            "Makhroj hurufnya adalah bibir atas dan bibir bawah dirapatkan bersama-sama",
+            "Huruf Tsa memiliki berapa titik?",
+            "Makhroj Huruf ini adalah ujung lidah menempel pada pangkal gigi seri atas sambil mengenai gusinya, yaitu..",
+            "Huruf Jim apabila diberi harokat Dhomah maka dibaca.. ",
     };
 
     //membuat array untuk pilihan jawaban
     private String jawabansatu[][] = {
             {"Jim","Alif","Tsa","Ba"},
             {"Ba","Ta","Tsa","Alif"},
-            {"Jim","Ta","Tsa","Alif"},
-            {"Jim-Tsa-Ta-Alif-Ba","Ta-Ba-Jim-Alif","Alif-Ba-Ta-Tsa-Jim","Ba-Ta-Alif-Tsa"},
-            {"Ta","Alif","Tsa","Jim"},
+            {"Satu titik","Dua titik","Tiga titik","Tidak punya titik"},
+            {"Alif","Jim","Ba","Ta"},
+            {"Ja","Ji","Ju","Jo"},
     };
 
     //membuat array untuk jawaban benar
     private String jawabanbenarsatu[] = {
             "Alif",
             "Ba",
-            "Alif",
-            "Alif-Ba-Ta-Tsa-Jim",
-            "Jim",
+            "Tiga titik",
+            "Ta",
+            "Ju",
     };
 
     //membuat getter untuk mengambil pertanyaan

@@ -4,10 +4,6 @@ import android.support.annotation.DrawableRes;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.RawRes;
 
-/**
- * Created by super on 7/19/2018.
- */
-
 public class MateriListLayout {
     private String title;
     private @DrawableRes int drawableTitleResId;

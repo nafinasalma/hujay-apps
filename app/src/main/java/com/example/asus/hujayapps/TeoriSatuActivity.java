@@ -1,7 +1,9 @@
 package com.example.asus.hujayapps;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
+import android.media.MediaPlayer;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,7 +18,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-public class TeoriSatuActivity extends AppCompatActivity {
+public class TeoriSatuActivity extends AppCompatActivity implements HurufFragment.OnFragmentButtonClick {
 
     private CustomViewPager vpFragments;
     private ArrayList<HurufFragment> hurufFragments = new ArrayList<>();
@@ -27,11 +29,11 @@ public class TeoriSatuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_teori_satu);
 
-        hurufFragments.add(new HurufFragment("alif"));
+        hurufFragments.add(new HurufFragment("alif", "pertama"));
         hurufFragments.add(new HurufFragment("ba"));
         hurufFragments.add(new HurufFragment("ta"));
         hurufFragments.add(new HurufFragment("tsa"));
-        hurufFragments.add(new HurufFragment("jim"));
+        hurufFragments.add(new HurufFragment("jim", "terakhir"));
 
         adapter = new HurufFragmentAdapter(this, getSupportFragmentManager(), hurufFragments);
         vpFragments = (CustomViewPager) findViewById(R.id.vpHuruf);
@@ -40,6 +42,8 @@ public class TeoriSatuActivity extends AppCompatActivity {
     }
 
     public void nextItem(){
+//        MediaPlayer mediaPlayer = MediaPlayer.create(this, getResources().getIdentifier("alif", "raw", getPackageName()));
+//        mediaPlayer.start();
         if(vpFragments.getCurrentItem() != adapter.getCount())
             vpFragments.setCurrentItem(vpFragments.getCurrentItem()+1);
     }
@@ -47,5 +51,13 @@ public class TeoriSatuActivity extends AppCompatActivity {
     public void prevItem(){
         if(vpFragments.getCurrentItem() != 0)
             vpFragments.setCurrentItem(vpFragments.getCurrentItem()-1);
+    }
+
+    @Override
+    public void onFragmentButtonClick(String button) {
+        if(button.equalsIgnoreCase("next"))
+            nextItem();
+        else
+            prevItem();
     }
 }

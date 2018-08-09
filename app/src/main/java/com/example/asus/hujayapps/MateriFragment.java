@@ -9,10 +9,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by super on 7/19/2018.
- */
-
 public class MateriFragment extends Fragment {
     @LayoutRes int resId;
 

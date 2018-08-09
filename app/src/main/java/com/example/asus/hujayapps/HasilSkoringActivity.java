@@ -26,8 +26,9 @@ public class HasilSkoringActivity extends AppCompatActivity {
         mbtnMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(HasilSkoringActivity.this, QaSatuActivity.class);
-                startActivity(i);
+//                Intent i = new Intent(HasilSkoringActivity.this, QaSatuActivity.class);
+//                startActivity(i);
+                onBackPressed();
             }
         });
     }

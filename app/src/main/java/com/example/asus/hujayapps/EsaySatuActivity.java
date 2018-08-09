@@ -50,17 +50,14 @@ public class EsaySatuActivity extends AppCompatActivity {
     public void setKonten(){
         medtJawaban.setText(null);
         arr = essay.pertanyaanesaysatu.length;
-        if(x >= arr){ //jika nilai x melebihi nilai arr(panjang array) maka akan pindah activity (kuis selesai)
-            String jumlahSkor = String.valueOf(skor);	//menjadikan skor menjadi string
+        if(x >= arr){
+            String jumlahSkor = String.valueOf(skor);
             Intent i = new Intent(EsaySatuActivity.this, HasilSkoringActivity.class);
-            //waktu pindah activity, sekalian membawa nilai jumlahSkor yang ditampung dengan inisial skorAkhir2
-            //singkatnya skorAkhir2 = jumlahSkor
-            //jika masih belum jelas silahkan bertanya
             i.putExtra("skorAkhir2",jumlahSkor);
             i.putExtra("activity","Essay");
             startActivity(i);
+            finish();
         }else{
-            //setting text dengan mengambil text dari method getter di kelas SoalEssay
             mtvSoal2.setText(essay.getPertanyaan(x));
             ubahGambar();
             jawaban = essay.getJawabanBenar(x);
@@ -78,13 +75,12 @@ public class EsaySatuActivity extends AppCompatActivity {
     }
 
     public void cekJawaban(){
-        if(!medtJawaban.getText().toString().isEmpty()){ //jika edit text TIDAK kosong
-            //jika text yang tertulis di edit text tsb = nilai dari var jawaban
+        if(!medtJawaban.getText().toString().isEmpty()){
             if(medtJawaban.getText().toString().equalsIgnoreCase(jawaban)){
-                skor = skor + 10;
-                mtvSkor2.setText(""+skor);	//mtvSkor2 diset nilainya = var skor
-                Toast.makeText(this, "Jawaban Benar", Toast.LENGTH_SHORT).show(); //keluar notifikasi "Jawaban Benar"
-                setKonten(); //update next konten
+                skor = skor + 20;
+                mtvSkor2.setText(""+skor);
+                Toast.makeText(this, "Jawaban Benar", Toast.LENGTH_SHORT).show();
+                setKonten();
             }else{
                 mtvSkor2.setText(""+skor);
                 Toast.makeText(this, "Jawaban Salah", Toast.LENGTH_SHORT).show();
@@ -95,14 +91,8 @@ public class EsaySatuActivity extends AppCompatActivity {
         }
     }
 
-    //ini adalah method bawaan dari Android Studio
-    //fungsi : memberi aksi ketika tombol back pada hp diklik
     @Override
     public void onBackPressed(){
-//        Toast.makeText(this, "Selesaikan kuis", Toast.LENGTH_SHORT).show();
-        //jadi yang awalnya klik tombol back maka akan kembali ke activity sebelumnya
         super.onBackPressed();
-        //kali ini ketika tombol back diklik maka
-        //hanya muncul Toast
     }
 }

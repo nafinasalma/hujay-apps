@@ -58,8 +58,8 @@
     <ImageButton
         android:layout_width="150dp"
         android:layout_height="170dp"
-        android:background="@drawable/gamedua"
-        android:onClick="movegamekedua"
+        android:background="@drawable/qadua"
+        android:onClick="moveqakedua"
         tools:layout_editor_absoluteY="314dp"
         tools:layout_editor_absoluteX="16dp"
         android:layout_alignTop="@+id/imageButton10"
@@ -69,8 +69,8 @@
     <ImageButton
         android:layout_width="150dp"
         android:layout_height="170dp"
-        android:background="@drawable/qadua"
-        android:onClick="moveqakedua"
+        android:background="@drawable/gamedua"
+        android:onClick="movegamekedua"
         tools:layout_editor_absoluteY="314dp"
         tools:layout_editor_absoluteX="186dp"
         android:id="@+id/imageButton10"

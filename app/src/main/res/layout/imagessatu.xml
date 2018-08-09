@@ -111,20 +111,16 @@
             android:src="@drawable/ic_back"/>
 
         <ImageView
-            android:id="@+id/back_33"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:scaleType="centerInside"
-            android:src="@drawable/ic_back"/>
+            android:scaleType="centerInside" />
 
         <ImageView
-            android:id="@+id/back_34"
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:scaleType="centerInside"
-            android:src="@drawable/ic_back"/>
+            android:scaleType="centerInside" />
 
     </LinearLayout>
 

@@ -34,7 +34,7 @@ public class CanvasView extends View {
         mPaint.setColor(Color.BLACK);
         mPaint.setStyle(Paint.Style.STROKE);
         mPaint.setStrokeJoin(Paint.Join.ROUND);
-        mPaint.setStrokeWidth(20);
+        mPaint.setStrokeWidth(25);
     }
 
     @Override

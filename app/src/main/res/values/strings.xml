@@ -2,15 +2,15 @@
     <string name="app_name">Hujay Apps</string>
     <string name="hujay_apps">Hujay Apps</string>
     <string name="aplikasi_belajar_huruf_hijaiyah">Aplikasi Belajar Huruf Hijaiyah</string>
-    <string name="iqro_pertama">Iqro Pertama</string>
-    <string name="iqro_kedua">Iqro Kedua</string>
-    <string name="iqro_tiga">Iqro Tiga</string>
+    <string name="iqro_pertama">Pembelajaran Pertama</string>
+    <string name="iqro_kedua">Pembelajaran Kedua</string>
+    <string name="iqro_tiga">Pembelajaran Tiga</string>
     <string name="hujay_apps3">Hujay Apps</string>
-    <string name="iqro_empat">Iqro Empat</string>
+    <string name="iqro_empat">Pembelajaran Empat</string>
     <string name="hujay_apps4">Hujay Apps</string>
     <string name="hujay_apps5">Hujay Apps</string>
-    <string name="iqro_lima">Iqro Lima</string>
-    <string name="iqro_enam">Iqro Enam</string>
+    <string name="iqro_lima">Pembelajaran Lima</string>
+    <string name="iqro_enam">Pembelajaran Enam</string>
     <string name="hujay_apps6">Hujay Apps</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -33,15 +33,14 @@
     <string name="_1">1</string>
     <string name="_00">0</string>
     <string name="hapus">Hapus</string>
-    <string name="p1_0">P1: 0</string>
-    <string name="p2_0">P2: 0</string>
-    <string name="skor">SKOR :</string>
+    <string name="p1_0">WAKTU: 05:00</string>
+    <string name="skor">SKOR: </string>
     <string name="lanjut">Lanjut</string>
     <string name="skor0">0</string>
     <string name="masukkan_jawaban_disini">Masukkan Jawaban disini</string>
     <string name="esay0">0</string>
-    <string name="skore">SKOR :</string>
-    <string name="submit1">SUBMIT</string>
+    <string name="skore">SKOR: </string>
+    <string name="submit1">Lanjut</string>
     <string name="skor_100">SKOR : 100</string>
     <string name="home">HOME</string>
     <string name="teoriwau">Cara Membaca:
@@ -52,4 +51,263 @@
     </string>
     <string name="teoriya">Wauwauwauwauwauwauwauwauwauwauwawu
     </string>
+
+    <string name="alifcarapenulisan">Huruf Alif ditulis tegak lurus dari atas ke bawah, ditulis di atas garis.</string>
+    <string name="alifcarapengunaan">Makhroj yang dikeluarkan huruf Alif yaitu di tenggorokan yang paling bawah.
+        Apabila diberi harokat:
+</string>
+    <string name="aliffathah">A</string>
+    <string name="alifkasrah">I</string>
+    <string name="alifdhomah">U</string>
+
+    <string name="bacarapenulisan">Huruf Ba ditulis di atas garis, penulisannya dimulai dari kanan ke kiri membentuk seperti perahu dengan titik satu di bawah garis.</string>
+    <string name="bacarapengunaan">Makhroj Huruf Ba, adalah bibir atas dan bibir bawah dirapatkan bersama-sama.
+    Apabila diberi harokat: </string>
+    <string name="bafathah">Ba</string>
+    <string name="bakasrah">Bi</string>
+    <string name="badhomah">Bu</string>
+
+    <string name="tacarapenulisan">Huruf Ta ditulis di atas garis, penulisannya dimulai dari kanan ke kiri membentuk seperti perahu dengan titik dua di atasnya.
+    Apabila diberi harokat:</string>
+    <string name="tacarapengunaan">Makhroj Huruf Ta, adalah ujung lidah menempel pada pangkal gigi seri atas sambil mengenai gusinya.</string>
+    <string name="tafathah">Ta</string>
+    <string name="takasrah">Ti</string>
+    <string name="tadhomah">Tu</string>
+
+    <string name="tsacarapenulisan">Huruf Tsa ditulis di atas garis, penulisannya dimulai dari kanan ke kiri membentuk seperti perahu dengan titik tiga di atasnya.
+</string>
+    <string name="tsacarapengunaan">Makhroj Huruf Tsa, adalah ujung lidah menyentuh ujung dua gigi seri atas.
+Apabila diberi harokat:</string>
+    <string name="tsafathah">Tsa</string>
+    <string name="tsakasrah">Tsi</string>
+    <string name="tsadhomah">Tsu</string>
+
+    <string name="jimcarapenulisan">Huruf Jim ditulis di atas garis, penulisannya dimulai dari membuat garis dari kiri ke kanan di atas garis, lalu dilanjutkan membentuk seperti setengah lingkaran di bawahnya melewati garis, dengan titik satu di tengah-tengahnya. </string>
+    <string name="jimcarapengunaan">Makhroj Huruf Jim, adalah ujung lidah mengenai langit-langit rongga mulut.
+Apabila diberi harokat:
+</string>
+    <string name="jimfathah">Ja</string>
+    <string name="jimkasrah">Ji</string>
+    <string name="jimdhomah">Ju</string>
+
+    <string name="hacarapenulisan">Huruf Ha ditulis di atas garis, penulisannya dimulai dari membuat garis dari kiri ke kanan di atas garis, lalu dilanjutkan membentuk seperti setengah lingkaran di bawahnya melewati garis.</string>
+    <string name="hacarapengunaan">Makhroj Huruf Ha, adalah tenggorokan bagian tengah.
+Apabila diberi harokat:
+</string>
+    <string name="hafathah">Ha</string>
+    <string name="hakasrah">Hi</string>
+    <string name="hadhomah">Hu</string>
+
+    <string name="khocarapenulisan">Huruf Kho ditulis di atas garis, penulisannya dimulai dari membuat garis dari kiri ke kanan di atas garis, lalu dilanjutkan membentuk seperti setengah lingkaran di bawahnya melewati garis, dengan titik satu di atas garis.</string>
+    <string name="khocarapengunaan">Makhroj Huruf Kho, adalah tenggorokan bagian atas.
+Apabila diberi harokat:
+</string>
+    <string name="khofathah">Kho</string>
+    <string name="khokasrah">Khi</string>
+    <string name="khodhomah">Khu</string>
+
+    <string name="dalcarapenulisan">Huruf Dal ditulis di atas garis, penulisannya dimulai dari membuat seperti huruf C namun terbalik.</string>
+    <string name="dalcarapengunaan">Makhroj Huruf Dal, adalah punggung ujung lidah mengenai pangkal gigi seri atas sambil mengenai gusinya. Apabila diberi harokat:
+</string>
+    <string name="dalfathah">Da</string>
+    <string name="dalkasrah">Di</string>
+    <string name="daldhomah">Du</string>
+
+    <string name="dzalcarapenulisan">Huruf Dzal ditulis di atas garis, penulisannya dimulai dari membuat seperti huruf C namun terbalik dengan titik di atasnya.</string>
+    <string name="dzalcarapengunaan">Makhroj Huruf Dzal, adalah ujung lidah yang menyentuh ujung dua gigi seri atas.
+Apabila diberi harokat:
+</string>
+    <string name="dzalfathah">Dza</string>
+    <string name="dzalkasrah">Dzi</string>
+    <string name="dzaldhomah">Dzu</string>
+
+    <string name="rocarapenulisan">Huruf Ro ditulis di atas sampai ke bawah garis, penulisannya seperti huruf dal dan dzal namun lebih besar.</string>
+    <string name="rocarapengunaan">Makhroj Huruf Ro, adalah ujung lidah digetarkan di langit-langit mulut.
+Apabila diberi harokat:
+</string>
+    <string name="rofathah">Ro</string>
+    <string name="rokasrah">Ri</string>
+    <string name="rodhomah">Ru</string>
+
+    <string name="zaincarapenulisan">Huruf Zain ditulis di atas sampai ke bawah garis, penulisannya seperti huruf dal dan dzal namun lebih besar dan ada titik di atasnya.</string>
+    <string name="zaincarapengunaan">Makhroj Huruf Zain, adalah ujung lidah menghadap dan mendekat diantara gigi deri atas dan bawah.
+Apabila diberi harokat:
+</string>
+    <string name="zainfathah">Za</string>
+    <string name="zainkasrah">Zi</string>
+    <string name="zaindhomah">Zu</string>
+
+    <string name="sincarapenulisan">Huruf Sin penulisannya dengan membuat dua lengkugan menghadap ke atas di atas garis, dan di lengkungan yang ketiga berada di bawah garis.</string>
+    <string name="sincarapengunaan">Makhroj Huruf Sin, adalah ujung lidah menghadap dan mendekat diantara gigi seri atas dan bawah.
+Apabila diberi harokat:
+</string>
+    <string name="sinfathah">Sa</string>
+    <string name="sinkasrah">Si</string>
+    <string name="sindhomah">Su</string>
+
+    <string name="syincarapenulisan">Huruf Syin penulisannya dengan membuat dua lengkugan menghadap ke atas di atas garis, dan di lengkungan yang ketiga berada di bawah garis, ditambah titik tiga di atas huruf.</string>
+    <string name="syincarapengunaan">Makhroj Huruf Syin, adalah bibir dimonyongkan.
+Apabila diberi harokat:
+</string>
+    <string name="syinfathah">Sya</string>
+    <string name="syinkasrah">Syi</string>
+    <string name="syindhomah">Syu</string>
+
+    <string name="shodcarapenulisan">Huruf Shod ditulis di atas sampai ke bawah garis, dengan membentuk lonjong di atas garis lalu membuat cekungan menghadap ke atas di bawah garis.</string>
+    <string name="shodcarapengunaan">Makhroj Huruf Shod, adalah ujung lidah menghadap dan mendekat diantara gigi seri atas dan bawah, dibaca mencucu/bibir dimonyongkan.
+        Apabila diberi harokat:
+</string>
+    <string name="shodfathah">Sho</string>
+    <string name="shodkasrah">Shi</string>
+    <string name="shoddhomah">Shu</string>
+
+    <string name="dhodcarapenulisan">Huruf Dhod ditulis di atas sampai ke bawah garis, dengan membentuk lonjong di atas garis lalu membuat cekungan menghadap ke atas di bawah garis, tidak lupa titik di atas huruf.</string>
+    <string name="dhodcarapengunaan">Makhroj Huruf Dhod, adalah sisi kanan atau kiri lidah mengenai sisi gigi geraham atas sebelah dalam (mulut menggelembung saat mengucapkannya).
+Apabila diberi harokat:
+</string>
+    <string name="dhodfathah">Dho</string>
+    <string name="dhodkasrah">Dhi</string>
+    <string name="dhoddhomah">Dhu</string>
+
+    <string name="thocarapenulisan">Huruf Tho ditulis di atas garis, dimulai dengan membuat lonjongan lalu diberi garis lurus di atasnya.</string>
+    <string name="thocarapengunaan">Makhroj Huruf Tho, adalah punggung ujung lidah mengenai pangkal gigi seri atas sambil mengenai gusinya. Mulut digelembungkan saat mengucapkannya.
+Apabila diberi harokat:
+</string>
+    <string name="thofathah">Tho</string>
+    <string name="thokasrah">Thi</string>
+    <string name="thodhomah">Thu</string>
+
+    <string name="dzocarapenulisan">Huruf Dzo ditulis di atas garis, dimulai dengan membuat lonjongan lalu diberi garis lurus di atasnya, dan ada titik di atasnya.</string>
+    <string name="dzocarapengunaan">Makhroj Huruf Dzo, adalah ujung lidah yang menyentuh ujung gigi seri atas.
+Apabila diberi harokat:
+</string>
+    <string name="dzofathah">Dzo</string>
+    <string name="dzokasrah">Dzi</string>
+    <string name="dzodhomah">Dzu</string>
+
+    <string name="aincarapenulisan">Huruf Ain ditulis di atas sampai ke bawah garis, penulisannya seperti angka tiga terbalik.</string>
+    <string name="aincarapengunaan">Makhroj Huruf ‘Ain, adalah tenggorokan bagian tengah.
+Apabila diberi harokat:
+</string>
+    <string name="ainfathah">A</string>
+    <string name="ainkasrah">I</string>
+    <string name="aindhomah">U</string>
+
+    <string name="ghoincarapenulisan">Huruf Ghoin ditulis di atas sampai ke bawah garis, penulisannya seperti angka tiga terbalik dan diberi titik di atasnya.</string>
+    <string name="ghoincarapengunaan">Makhroj Huruf Ghoin, adalah tenggorokan bagian atas.
+Apabila diberi harokat:
+</string>
+    <string name="ghoinfathah">Gho</string>
+    <string name="ghoinkasrah">Ghi</string>
+    <string name="ghoindhomah">Ghu</string>
+
+    <string name="facarapenulisan">Huruf Fa ditulis di atas garis, dimulai dengan membuat lingkaran kecil lalu memanjang, terdapat titik di atasnya.</string>
+    <string name="facarapengunaan">Makhroj Huruf Fa, adalah bibir bawah bagian dalam mengenai ujung gigi seri atas.
+Apabila diberi harokat:
+</string>
+    <string name="fafathah">Fa</string>
+    <string name="fakasrah">Fi</string>
+    <string name="fadhomah">Fu</string>
+
+    <string name="qofcarapenulisan">Huruf Qof ditulis di atas sampai ke bawah garis. Dimulai dengan membuat lingkaran kecil lalu turun ke bawah garis membuat lengkungan. Terdapat titik di atasnya.</string>
+    <string name="qofcarapengunaan">Makhroj Huruf Qof, adalah pangkal lidah mengenai langit-langit yang di atasnya.
+Apabila diberi harokat:
+</string>
+    <string name="qoffathah">Qo</string>
+    <string name="qofkasrah">Qi</string>
+    <string name="qofdhomah">Qu</string>
+
+    <string name="kafcarapenulisan">Huruf Kaf ditulis di atas garis, dimulai dengan membuat gari slurus dari atas ke bawah lalu dilanjutkan membuat garis lurus ke samping, ditambah bentuk seperti gambar petir di sampingnya.</string>
+    <string name="kafcarapengunaan">Makhroj Huruf Kaf, adalah pangkal lidah agak ke depan mengenai langit-langit di atasnya.
+Apabila diberi harokat:
+</string>
+    <string name="kaffathah">Ka</string>
+    <string name="kafkasrah">Ki</string>
+    <string name="kafdhomah">Ku</string>
+
+    <string name="lamcarapenulisan">Huruf Lam ditulis dari atas sampai ke bawah garis, dimulai dengan membuat garis lurus lalu melewati garis membuat lengkungan yang menghadap ke atas.</string>
+    <string name="lamcarapengunaan">Makhroj Huruf Lam, adalah sisi bagian depan lidah mengenai gusi gigi depan.
+Apabila diberi harokat:
+</string>
+    <string name="lamfathah">La</string>
+    <string name="lamkasrah">Li</string>
+    <string name="lamdhomah">Lu</string>
+
+    <string name="mimcarapenulisan">Huruf Mim ditulis di atas garis, dengan membuat lingkaran lalu dilanjutkan membuat garis lurus.</string>
+    <string name="mimcarapengunaan">Makhroj Huruf Mim, adalah bibir atas dan bibir bawah dirapatkan bersama-sama.
+Apabila diberi harokat:
+</string>
+    <string name="mimfathah">Ma</string>
+    <string name="mimkasrah">Mi</string>
+    <string name="mimdhomah">Mu</string>
+
+    <string name="nuncarapenulisan">Huruf Nun ditulis dari atas sampai ke bawah garis, yaitu membuat seperti perahu dengan titik di atasnya.</string>
+    <string name="nuncarapengunaan">Makhroj Huruf Nun, adalah ujung lidah mengenai gusi gigi seri atas.
+Apabila diberi harokat:
+</string>
+    <string name="nunfathah">Na</string>
+    <string name="nunkasrah">Ni</string>
+    <string name="nundhomah">Nu</string>
+
+    <string name="waucarapenulisan">Huruf Wau ditulis di atas sampai ke bawah garis, penulisannya dengan membuat bulatan lalu membuat garis agak melengkung ke bawah.</string>
+    <string name="waucarapengunaan">Makhroj Huruf Wau, adalah kedua bibir mencucu.
+Apabila diberi harokat:
+</string>
+    <string name="waufathah">Wa</string>
+    <string name="waukasrah">Wi</string>
+    <string name="waudhomah">Wu</string>
+
+    <string name="hakcarapenulisan">Huruf Ha ditulis di atas garis, dengan membuat bulatan yang agak runcing di atasnya lalu membuat garis di tengah-tengah bulatan.</string>
+    <string name="hakcarapengunaan">Makhroj Huruf Ha, adalah tenggorokan bagian bawah.
+Apabila diberi harokat:
+</string>
+    <string name="hakfathah">Ha</string>
+    <string name="hakkasrah">Hi</string>
+    <string name="hakdhomah">Hu</string>
+
+    <string name="lamalifcarapenulisan">Huruf Lam Alif ditulis di atas garis.</string>
+    <string name="lamalifcarapengunaan">Makhroj Huruf Lam Alif, adalah makhrojnya mengangkat ujung lidah, disentuhkan dengan langit-langit. Apabila diberi harokat:
+</string>
+    <string name="lamaliffathah">Laa</string>
+    <string name="lamalifkasrah">Li-a</string>
+    <string name="lamalifdhomah">Lu-a</string>
+
+    <string name="hamzahcarapenulisan">Huruf Hamzah biasanya diwadahi huruf Alif Wau dan Ya.</string>
+    <string name="hamzahcarapengunaan">Makhroj Huruf Hamzah, adalah tenggorokan bagian bawah.
+Apabila diberi harokat:
+</string>
+    <string name="hamzahfathah">A</string>
+    <string name="hamzahkasrah">I</string>
+    <string name="hamzahdhomah">U</string>
+
+    <string name="yacarapenulisan">Huruf Ya ditulis dari atas sampai ke bawah garis, bentuknya seperti bebek dan terdapat dua titik di bawahnya.</string>
+    <string name="yacarapengunaan">Makhroj Huruf Ya, adalah tengah lidah mengambang di tengah-tengah mulut.
+Apabila diberi harokat:
+</string>
+    <string name="yafathah">Ya</string>
+    <string name="yakasrah">Yi</string>
+    <string name="yadhomah">Yu</string>
+    <string name="keterangan">Keterangan:
+        1. Menu informasi
+        2. Tombol 1-6 adalah tingkat pembelajarannya, pilih salah satu</string>
+    <string name="keterangandua">Keterangan:
+        1. Menu untuk belajar teori huruf hijaiyah
+        2. Menu untuk belajar menulis huruf hijaiyah
+        3. Menu untuk bermain permainan beripa menyocokan huruf hijaiyah dengan huruf latin
+        4. Menu untuk melakukan kuis dengan pilihan ganda atau esay</string>
+    <string name="keterangantiga">Keterangan:
+        1. Tombol untuk kembali ke huruf sebelumnya
+        2. Tombol untuk menuju ke huruf selanjutnya
+        3. Tombol suara</string>
+    <string name="keteranganempat">Keterangan:
+        1. Gambar huruf hijaiyah sebagai contoh untuk menulis
+        2. Tombol simpan, untuk menyimpan hasil tulisan ke galeri
+        3. Tombol hapus, untuk menghapus tulisan yang salah
+        4. Tombol untuk kembali ke huruf yang sebelumnya
+        5. Tombol untuk menuju ke huruf yang selanjutnya</string>
+    <string name="keteranganlima">keteranganlima</string>
+    <string name="keteranganenam">keteranganenam</string>
+    <string name="keterangantujuh">keterangantujuh</string>
+    <string name="keterangandelapan">keterangandelapan</string>
+    <string name="keterangansembilan">keterangansembilan</string>
 </resources>

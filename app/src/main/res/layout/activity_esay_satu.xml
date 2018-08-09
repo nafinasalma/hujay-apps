@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bghome"
     tools:context="com.example.asus.hujayapps.EsaySatuActivity">
 
     <LinearLayout
@@ -16,6 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/skor"
+            android:textColor="#ffffff"
             android:textSize="22sp"/>
 
         <TextView
@@ -23,6 +25,7 @@
             android:layout_width="50dp"
             android:layout_height="wrap_content"
             android:text="@string/esay0"
+            android:textColor="#ffffff"
             android:textSize="22sp"/>
     </LinearLayout>
 
@@ -45,6 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:textColor="#ffffff"
             android:textSize="15sp"/>
     </LinearLayout>
 

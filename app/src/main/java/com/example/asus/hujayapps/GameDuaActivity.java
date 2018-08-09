@@ -13,24 +13,29 @@ import android.widget.TextView;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class GameDuaActivity extends AppCompatActivity {
 
     TextView tv_p1;
 
-    ImageView back_11, back_12, back_13, back_14, back_21, back_22, back_23, back_24, back_31, back_32, back_33, back_34;
+    ImageView back_11, back_12, back_13, back_14, back_21, back_22, back_23, back_24, back_31, back_32;
 
-    Integer[] cardsArray = {101, 102, 103, 104, 105, 106,
-            201, 202, 203, 204, 205, 206};
+    Integer[] cardsArray = {101, 102, 103, 104, 105,
+            201, 202, 203, 204, 205};
 
-    int gambar101, gambar102, gambar103, gambar104, gambar105, gambar106,
-            gambar201, gambar202, gambar203, gambar204, gambar205, gambar206;
+    int gambar101, gambar102, gambar103, gambar104, gambar105,
+            gambar201, gambar202, gambar203, gambar204, gambar205;
 
     int firstCard, secondCard;
     int clickedFirst, clickedSecond;
     int cardNumber = 1;
 
     int playerPoints = 0;
+
+    int timer = 0;
+    Timer T =new Timer();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,8 +54,6 @@ public class GameDuaActivity extends AppCompatActivity {
         back_24 = (ImageView) findViewById(R.id.back_24);
         back_31 = (ImageView) findViewById(R.id.back_31);
         back_32 = (ImageView) findViewById(R.id.back_32);
-        back_33 = (ImageView) findViewById(R.id.back_33);
-        back_34 = (ImageView) findViewById(R.id.back_34);
 
         back_11.setTag(0);
         back_12.setTag(1);
@@ -62,8 +65,6 @@ public class GameDuaActivity extends AppCompatActivity {
         back_24.setTag(7);
         back_31.setTag(8);
         back_32.setTag(9);
-        back_33.setTag(10);
-        back_34.setTag(11);
 
         frontOfCardsResources();
 
@@ -149,21 +150,22 @@ public class GameDuaActivity extends AppCompatActivity {
             }
         });
 
-        back_33.setOnClickListener(new View.OnClickListener() {
+        tv_p1.setTextColor(Color.GRAY);
+        T.scheduleAtFixedRate(new TimerTask() {
             @Override
-            public void onClick(View view) {
-                int theCard = (int) view.getTag();
-                doStuff(back_33, theCard);
+            public void run() {
+                timer++;
+                runOnUiThread(new Runnable()
+                {
+                    @Override
+                    public void run()
+                    {
+                        String waktu = hitungWaktu(timer);
+                        tv_p1.setText(waktu);
+                    }
+                });
             }
-        });
-
-        back_34.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                int theCard = (int) view.getTag();
-                doStuff(back_34, theCard);
-            }
-        });
+        }, 1000, 1000);
     }
 
     private void doStuff(ImageView iv, int card) {
@@ -177,8 +179,6 @@ public class GameDuaActivity extends AppCompatActivity {
             iv.setImageResource(gambar104);
         } else if (cardsArray[card] == 105) {
             iv.setImageResource(gambar105);
-        } else if (cardsArray[card] == 106) {
-            iv.setImageResource(gambar106);
         } else if (cardsArray[card] == 201) {
             iv.setImageResource(gambar201);
         } else if (cardsArray[card] == 202) {
@@ -189,8 +189,6 @@ public class GameDuaActivity extends AppCompatActivity {
             iv.setImageResource(gambar204);
         } else if (cardsArray[card] == 205) {
             iv.setImageResource(gambar205);
-        } else if (cardsArray[card] == 206) {
-            iv.setImageResource(gambar206);
         }
 
         if (cardNumber == 1) {
@@ -220,8 +218,6 @@ public class GameDuaActivity extends AppCompatActivity {
             back_24.setEnabled(false);
             back_31.setEnabled(false);
             back_32.setEnabled(false);
-            back_33.setEnabled(false);
-            back_34.setEnabled(false);
 
             Handler handler = new Handler();
             handler.postDelayed(new Runnable() {
@@ -255,10 +251,6 @@ public class GameDuaActivity extends AppCompatActivity {
                 back_31.setVisibility(View.INVISIBLE);
             } else if (clickedFirst == 9) {
                 back_32.setVisibility(View.INVISIBLE);
-            } else if (clickedFirst == 10) {
-                back_33.setVisibility(View.INVISIBLE);
-            } else if (clickedFirst == 11) {
-                back_34.setVisibility(View.INVISIBLE);
             }
 
             if (clickedSecond == 0) {
@@ -281,14 +273,10 @@ public class GameDuaActivity extends AppCompatActivity {
                 back_31.setVisibility(View.INVISIBLE);
             } else if (clickedSecond == 9) {
                 back_32.setVisibility(View.INVISIBLE);
-            } else if (clickedSecond == 10) {
-                back_33.setVisibility(View.INVISIBLE);
-            } else if (clickedSecond == 11) {
-                back_34.setVisibility(View.INVISIBLE);
             }
 
-            playerPoints++;
-            tv_p1.setText("P1: " + playerPoints);
+//            playerPoints++;
+//            tv_p1.setText("Poin: " + playerPoints);
         }
             back_11.setImageResource(R.drawable.ic_back);
             back_12.setImageResource(R.drawable.ic_back);
@@ -300,8 +288,6 @@ public class GameDuaActivity extends AppCompatActivity {
             back_24.setImageResource(R.drawable.ic_back);
             back_31.setImageResource(R.drawable.ic_back);
             back_32.setImageResource(R.drawable.ic_back);
-            back_33.setImageResource(R.drawable.ic_back);
-            back_34.setImageResource(R.drawable.ic_back);
 
         tv_p1.setTextColor(Color.WHITE);
         {
@@ -316,8 +302,6 @@ public class GameDuaActivity extends AppCompatActivity {
             back_24.setEnabled(true);
             back_31.setEnabled(true);
             back_32.setEnabled(true);
-            back_33.setEnabled(true);
-            back_34.setEnabled(true);
 
             checkEnd();
         }
@@ -333,15 +317,15 @@ public class GameDuaActivity extends AppCompatActivity {
                 back_23.getVisibility() == View.INVISIBLE &&
                 back_24.getVisibility() == View.INVISIBLE &&
                 back_31.getVisibility() == View.INVISIBLE &&
-                back_32.getVisibility() == View.INVISIBLE &&
-                back_33.getVisibility() == View.INVISIBLE &&
-                back_34.getVisibility() == View.INVISIBLE) {
+                back_32.getVisibility() == View.INVISIBLE) {
 
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(GameDuaActivity.this);
             alertDialogBuilder
-                    .setMessage("GAME OVER!\nP1: " + playerPoints)
+//                    .setMessage("PERMAINAN SELESAI!\nPoin Kamu: " + playerPoints)
+
+                    .setMessage("PERMAINAN SELESAI!\nWaktu Kamu: " + hitungWaktu(timer))
                     .setCancelable(false)
-                    .setPositiveButton("NEW", new DialogInterface.OnClickListener() {
+                    .setPositiveButton("Permainan Baru", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
                             Intent intent = new Intent(getApplicationContext(), GameDuaActivity.class);
@@ -349,7 +333,7 @@ public class GameDuaActivity extends AppCompatActivity {
                             finish();
                         }
                     })
-                    .setNegativeButton("EXIT", new DialogInterface.OnClickListener() {
+                    .setNegativeButton("Keluar", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
                             finish();
@@ -357,21 +341,26 @@ public class GameDuaActivity extends AppCompatActivity {
                     });
             AlertDialog alertDialog = alertDialogBuilder.create();
             alertDialog.show();
+            T.cancel();
         }
+    }
+
+    private String hitungWaktu(int waktu){
+        int menit = waktu / 60;
+        int detik = waktu % 60;
+        return "0"+menit+":"+(detik < 10 ? "0"+detik : detik);
     }
 
     private void frontOfCardsResources() {
         gambar101 = R.drawable.hagame;
-        gambar102 = R.drawable.zonk;
+        gambar102 = R.drawable.khogame;
         gambar103 = R.drawable.dalgame;
         gambar104 = R.drawable.dzalgame;
         gambar105 = R.drawable.rogame;
-        gambar106 = R.drawable.khogame;
         gambar201 = R.drawable.hagame2;
-        gambar202 = R.drawable.zonk2;
+        gambar202 = R.drawable.khogame2;
         gambar203 = R.drawable.dalgame2;
         gambar204 = R.drawable.dzalgame2;
         gambar205 = R.drawable.rogame2;
-        gambar206 = R.drawable.khogame2;
     }
 }

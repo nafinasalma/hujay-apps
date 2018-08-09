@@ -13,11 +13,6 @@ public class IqroTigaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_iqro_tiga);
     }
 
-    public void movetigateori(View view) {
-        Intent i = new Intent(IqroTigaActivity.this, SamplePembelajaranActivity.class);
-        startActivity(i);
-    }
-
     public void movetiganulis(View view) {
         Intent i = new Intent(IqroTigaActivity.this, NulisTigaActivity.class);
         startActivity(i);

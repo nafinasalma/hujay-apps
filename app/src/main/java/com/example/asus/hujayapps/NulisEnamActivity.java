@@ -25,6 +25,7 @@ public class NulisEnamActivity extends AppCompatActivity {
         btnPrev = (ImageButton) findViewById(R.id.prev) ;
         canvasView = (CanvasView) findViewById(R.id.canvas);
         canvasFragments.add(new CanvasFragment("wau"));
+        canvasFragments.add(new CanvasFragment("hak"));
         canvasFragments.add(new CanvasFragment("lamalif"));
         canvasFragments.add(new CanvasFragment("hamzah"));
         canvasFragments.add(new CanvasFragment("ya"));

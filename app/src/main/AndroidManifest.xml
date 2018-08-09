@@ -25,6 +25,7 @@
         android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcherhujay"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcherhujay"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -69,7 +70,18 @@
         <activity android:name=".EsaySatuActivity" />
         <activity android:name=".PilganSatuActivity" />
         <activity android:name=".HasilSkoringActivity" />
-        <activity android:name=".SamplePembelajaranActivity"></activity>
+        <activity android:name=".PilganEnamActivity" />
+        <activity android:name=".EsayEnamActivity" />
+        <activity android:name=".EsayDuaActivity" />
+        <activity android:name=".PilganDuaActivity" />
+        <activity android:name=".EsayTigaActivity" />
+        <activity android:name=".PilganTigaActivity" />
+        <activity android:name=".PilganEmpatActivity" />
+        <activity android:name=".EsayEmpatActivity" />
+        <activity android:name=".PilganLimaActivity" />
+        <activity android:name=".EsayLimaActivity" />
+        <activity android:name=".CaraPenggunaanActivity" />
+        <activity android:name=".AppInfoActivity"></activity>
     </application>
 
 </manifest>

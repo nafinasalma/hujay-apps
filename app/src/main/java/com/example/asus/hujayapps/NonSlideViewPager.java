@@ -9,10 +9,6 @@ import android.widget.Scroller;
 
 import java.lang.reflect.Field;
 
-/**
- * Created by super on 7/18/2018.
- */
-
 public class NonSlideViewPager extends ViewPager {
 
     public NonSlideViewPager(Context context) {
